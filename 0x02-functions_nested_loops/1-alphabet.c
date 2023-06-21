@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 #include <unistd.h>
 
@@ -13,24 +13,24 @@ nclude "main.h"
 
 
 void print_alphabet(void)
-
+	
 {
 
-	        char c = 'a';
+        char c = 'a';
 
 
-		        while (c <= 'z')
+        while (c <= 'z')
 
-				        {
+        {
+	
+	                _putchar(c);
+	
+	                c++;
+	
+	
+	        }
 
-						                _putchar(c);
-
-								                c++;
-
-
-										        }
-
-			        _putchar('\n');
+        _putchar('\n');
 
 
 }
